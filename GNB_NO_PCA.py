@@ -1,6 +1,5 @@
 import pandas as pd
 from sklearn.naive_bayes import GaussianNB
-import pickle
 
 print("\n\nStarting.\n")
 trainD = pd.HDFStore('train_data.h5')

@@ -1,10 +1,5 @@
 import pandas as pd
-import numpy as np
-from sklearn.decomposition import PCA
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
-from sklearn.preprocessing import StandardScaler
-from sklearn.svm import SVC
-from sklearn.model_selection import KFold,cross_val_score
 var_threshold=0.99
 print("Start")
 store = pd.HDFStore('all_data.h5')

@@ -1,6 +1,5 @@
 import pandas as pd
 from sklearn import svm
-import pickle
 
 print("\n\nStarting.\n")
 trainD = pd.HDFStore('train_pca.h5')
